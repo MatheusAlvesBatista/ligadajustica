@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/ice" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtcodinome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -27,64 +27,64 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/txtNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Nome real: Tora Olafsdotter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/txtcodinome" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/txtBase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Base de operações: Manhattan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNome" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/txtNacionalidade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Nacionalidade: Norueguesa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintTop_toBottomOf="@+id/txtBase" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/txtPoder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Poder principal: Controle do gelo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNacionalidade" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/txtFraqueza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Principal fraqueza: Fogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPoder" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/txtEspecie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Espécie: Meta-humana"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        app:layout_constraintTop_toBottomOf="@+id/txtFraqueza" />
 
     <Button
         android:id="@+id/btnVoltarG"
@@ -95,6 +95,6 @@
         android:text="Voltar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEspecie" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

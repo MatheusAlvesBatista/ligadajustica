@@ -7,14 +7,14 @@
     tools:context=".FogoActivity">
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/txtNacionalidade"
         android:layout_width="156dp"
         android:layout_height="19dp"
         android:layout_marginTop="15dp"
         android:text="Nacionalidade: Brasileira"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+        app:layout_constraintTop_toBottomOf="@+id/txtBase" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -27,7 +27,7 @@
         app:srcCompat="@drawable/fogo" />
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/txtcodinome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -37,54 +37,54 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/txtNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Nome real: Beatriz Bonilla da Costa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+        app:layout_constraintTop_toBottomOf="@+id/txtcodinome" />
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/txtBase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Base de operações: Rio de Janeiro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNome" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/txtPoder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Poder principal: Controle do fogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNacionalidade" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/txtFraqueza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Principal fraqueza: Água"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPoder" />
 
     <TextView
-        android:id="@+id/textView28"
+        android:id="@+id/txtEspecie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Espécie: Meta-humano"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+        app:layout_constraintTop_toBottomOf="@+id/txtFraqueza" />
 
     <Button
         android:id="@+id/btnVoltarF"
@@ -95,5 +95,5 @@
         android:text="Voltar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEspecie" />
 </androidx.constraintlayout.widget.ConstraintLayout>

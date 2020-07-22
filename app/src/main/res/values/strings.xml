@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LigadaJustica</string>
+    <string name="txtcodinome">Codinome:</string>
+    <string name="txtNome">Nome real:</string>
+    <string name="txtBase">Base de operações:</string>
+    <string name="txtNacionalidadet">Nacionalidade: </string>
+    <string name="txtPoder">Poder principal:</string>
+    <string name="txtFraqueza">Principal fraqueza:</string>
+    <string name="txtEspecie">Espécie:</string>
+    <string name="txtEscolha">Escolha o herói:</string>
 </resources>

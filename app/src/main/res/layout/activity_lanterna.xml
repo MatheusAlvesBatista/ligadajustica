@@ -17,74 +17,70 @@
         app:srcCompat="@drawable/lanterna_verde" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/txtcodinome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
         android:text="Codinome: Lanterna Verde"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        tools:layout_editor_absoluteY="348dp" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/txtNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:text="Nome real: Hal Jordan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+        tools:layout_editor_absoluteY="382dp" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/txtBase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:text="Base de operações: Planeta OA"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        tools:layout_editor_absoluteY="416dp" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/txtNacionalidade"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:text="Nacionalidade: Americano"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+        tools:layout_editor_absoluteY="450dp" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/txtPoder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:text="Poder principal: Força de vontade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+        tools:layout_editor_absoluteY="484dp" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/txtFraqueza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:text="Principal fraqueza: Luz amarela"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+        tools:layout_editor_absoluteY="518dp" />
 
     <TextView
-        android:id="@+id/textView21"
+        android:id="@+id/txtEspecie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:text="Espécie: Humano"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+        tools:layout_editor_absoluteY="552dp" />
 
     <Button
         android:id="@+id/btnVoltarL"
@@ -94,7 +90,8 @@
         android:onClick="Voltar"
         android:text="Voltar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEspecie" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

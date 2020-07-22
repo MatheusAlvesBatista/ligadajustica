@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnFogo" />
 
     <TextView
-        android:id="@+id/textView30"
+        android:id="@+id/txtEscolha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="134dp"
@@ -47,15 +47,10 @@
         android:layout_marginStart="88dp"
         android:layout_marginLeft="88dp"
         android:layout_marginTop="79dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginRight="59dp"
-        android:layout_marginBottom="127dp"
         android:onClick="Flash"
         android:text="Flash"
-        app:layout_constraintBottom_toTopOf="@+id/btnLanterna"
-        app:layout_constraintEnd_toStartOf="@+id/btnFogo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEscolha" />
 
     <Button
         android:id="@+id/btnFogo"
@@ -69,5 +64,5 @@
         android:text="Fogo"
         app:layout_constraintBottom_toTopOf="@+id/btnGelo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEscolha" />
 </androidx.constraintlayout.widget.ConstraintLayout>
